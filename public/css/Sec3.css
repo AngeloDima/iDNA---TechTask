@@ -1,0 +1,170 @@
+.caroselloBox{
+    width: 1200px;
+    height: 550px;
+    /* background-color: rgb(232, 232, 232); */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+
+    display: flex;
+    border: 1px solid rgba(0, 0, 0, 0.294);
+}
+
+
+
+
+
+
+.caroselloBox .dx{
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    height: 100%;
+    padding: 40px;
+    position: relative;
+}
+
+.caroselloBox .dx > button{
+    position: absolute;
+    top: 35px;
+    right: -30px;
+}
+
+#Titolo{
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 90px;
+    color: #252525;
+}
+
+#Descrizione{
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+    color: #000000d1;
+}
+
+.gap-Custom{
+    gap: 45px;
+}
+
+.borderCustom{
+    border-bottom: 1px solid #0000002e;
+    margin-bottom: 20px;
+    padding-bottom: 5px;
+}
+
+.borderCustom > h5{
+    cursor: pointer;
+}
+
+.hoverBottom:hover{
+    border-bottom: 4px solid rgb(0, 170, 255);
+    margin-bottom: -5px;
+}
+
+#Price{
+    margin-bottom: 0;
+
+    font-size: 2.2rem;
+    font-weight: 700;
+}
+
+.as{
+    margin-top: 30px;
+}
+
+.as > button{
+    padding: 8px 24px;
+    border: none;
+    background-color: #00d3ff;
+    color: white;
+    font-size: 1.2rem;
+}
+
+#btn{
+    position: absolute;
+    top: 0px;
+    right: -90px;
+    width: 50px;
+    background: #ffe100;
+    border: none;
+    color: white;
+    fill: white;
+    padding: 5px 10px;
+}
+
+#btn2{
+    position: absolute;
+    top: 0px;
+    right: -40px;
+    width: 50px;
+    background: #ffe100;
+    border: none;
+    color: white;
+    fill: white;
+    padding: 5px 10px;
+}
+
+
+
+.Index{
+
+    font-size: 1.4rem;
+    background-color: white;
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 44px;
+    right: -41px;
+    padding: 5px 25px;
+}
+
+
+.caroselloBox .sx{
+    background-color: rgba(195, 255, 0, 0.15);
+    width: 55%;
+    height: 100%;
+    background-image: url(https://img.freepik.com/free-photo/blue-red-geometric-background_23-2147668463.jpg?w=996&t=st=1716484715~exp=1716485315~hmac=21351e0…);
+    background-size: cover;
+    position: relative;
+}
+
+.boxContent{
+    height: 100%;
+    /* background-color: #ffe100; */
+    position: absolute;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.boxContent > .box{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border: 2px solid rgba(0, 0, 0, 0.474);
+}
+
+.box:hover{
+    border: 4px solid aqua;
+}
+
+.boxImage{
+    width: 88%;
+    height: 100%;
+    background-color: red;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.caroselloBox .dx > a{
+    color: #00e3e3;
+    font-size: 1.2rem;
+}

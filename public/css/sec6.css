@@ -1,0 +1,47 @@
+.ContainerSurf{
+    width: 100%;
+    /* background-color: red; */
+    position: absolute;
+    /* justify-content: space-between; */
+    align-items: flex-end;
+    bottom: -190px;
+    gap: 110px;
+}
+
+.ContainerSurf .sx{
+    width: 750px;
+    /* height: 630px; */
+    background-color: rgb(255, 255, 255);
+    padding: 75px 125px 110px 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.ContainerSurf > .sx > h4{
+    align-self: center;
+}
+
+.ContainerSurf > .sx > p{
+    font-size: 1.3rem;
+    line-height: 40px;
+    letter-spacing: 1px;
+}
+
+.ContainerSurf > .sx > svg{
+    height: 30px;
+    align-self: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.ContainerSurf .dx{
+    background-size: 121%;
+    width: 530px;
+    height: 270px;
+    background-image: url(http://lepistina.com/projects/SurfsCo/img/surfPic.png);
+    box-shadow: 10px 10px 19px 0px rgb(0 0 0 / 61%);
+    background-position-y: 7%;
+    background-position-x: 37%;
+}
+
+

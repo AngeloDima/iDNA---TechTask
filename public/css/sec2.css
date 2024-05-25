@@ -1,0 +1,17 @@
+.mTop-Dima{
+    margin-top: 95px;
+}
+
+.a{
+    font-family: "Playfair Display", serif;
+    letter-spacing: 1px;
+}
+
+.text-darkCustom{
+    color: #252525;
+}
+
+.a > p{
+    text-shadow: 0px 0px 6px #000000;
+    font-size: 1.2rem;
+}

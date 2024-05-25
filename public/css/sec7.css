@@ -1,0 +1,49 @@
+.contaierInstaForm{
+    width: 1265px;
+
+    margin: 90px auto 0px auto;
+    padding-top: 130px;
+    position: relative;
+}
+
+.contaierInstaForm .down{
+    width: 100%;
+    height: 100%;
+}
+
+.contaierInstaForm .up h1{
+    color: #00000014;
+    font-size: 6rem;
+    letter-spacing: 9px;
+    font-weight: 700;
+    line-height: 0.6;
+}
+.contaierInstaForm .down .sx{
+    width: 50%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.contaierInstaForm .down .dx{
+    width: 50%;
+    padding-left: 50px;
+    z-index: 1;
+    /* height: 500px; */
+    /* background-color: rgb(1, 182, 121); */
+}
+
+
+.contaierInstaForm .down .sx{
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 999;
+}
+
+.boxInsta{
+    width: 50%;
+    height: 50%;
+}
+
+.boxInsta img{
+    width: 100%;
+}

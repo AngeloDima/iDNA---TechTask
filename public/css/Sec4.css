@@ -1,0 +1,13 @@
+.ContainerWhiteText{
+    width: 100%;
+    text-align: center;
+    padding-top: 130px;
+    /* background-color: aquamarine; */
+}
+.ContainerWhiteText > h1{
+    margin-bottom: 0;
+    font-size: 8rem;
+    letter-spacing: 40px;
+    font-weight: 700;
+    color: #0000000f;
+}
