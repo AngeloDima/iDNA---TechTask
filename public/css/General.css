@@ -66,3 +66,63 @@
     font-size: 1.2rem;
     text-decoration: none;
 }
+
+
+@media screen and (max-width: 1300px){
+    .m-b{
+        margin-bottom: 320px;
+    }
+}
+
+@media screen and (max-width: 1230px){
+    .m-b{
+        margin-bottom: 420px;
+    }
+}
+
+
+@media screen and (max-width: 1084px){
+    .m-b{
+        margin-bottom: 850px;
+    }
+
+
+}
+
+@media screen and (max-width: 860px){
+    .m-b{
+        margin-bottom: 800px;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    .m-b{
+        margin-bottom: 750px;
+    }
+}
+@media screen and (max-width: 584px){
+    .m-b{
+        margin-bottom: 1030px;
+    }
+}
+@media screen and (max-width: 494px){
+    .m-b{
+        margin-bottom: 1090px;
+    }
+}
+
+
+@media screen and (max-width: 410px){
+    .m-b{
+        margin-bottom: 1140px;
+    }
+}
+
+
+@media screen and (max-width: 380px){
+    .m-b{
+        margin-bottom: 1250px;
+    }
+}
+

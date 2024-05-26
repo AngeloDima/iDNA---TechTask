@@ -18,6 +18,7 @@ const img3Element = document.getElementById("img3");
 const box1Element = document.getElementById("box1");
 const box2Element = document.getElementById("box2");
 const indexElement = document.getElementById("Index");
+const indexElement2 = document.getElementById("Index2");
 let currentIndex = 0;
 
 function mostraElementoCorrente(option) {
@@ -32,6 +33,7 @@ function mostraElementoCorrente(option) {
     img2Element.src = element.img2;
     img3Element.src = element.img3;
     indexElement.textContent = `${currentIndex + 1}`+ '/' + arrayChiaveValore.length;
+    indexElement2.textContent = `${currentIndex + 1}`+ '/' + arrayChiaveValore.length;
 }
 
 

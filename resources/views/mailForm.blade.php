@@ -21,15 +21,16 @@
 
             <textarea name="Your-Message" id="Your-Message" cols="30" rows="2" required placeholder="Your Message"></textarea>
 
-            <div class="dl">
-                <input type="checkbox" name="Privacy" id="Privacy" required>
-                <p>
-                    Privacy Accept
-                </p>
+                <div class="form-check dl">
+                    <input type="submit" value="SEND" id="btnForm2">
+                    <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                    <label class="form-check-label" for="flexCheckDefault">
+                      Accept privacy policy
+                    </label>
+                </div>
 
-            </div>
 
-            <input type="submit" value="SEND">
+            <input type="submit" value="SEND" id="btnForm">
         </form>
     </div>
 

@@ -28,15 +28,15 @@
      <div class="m-b">
         @include('HomePage.Sec3')
     </div>
-    {{-- @include('HomePage.Sec4')
-    <div class="position-relative mb-cus">
+      @include('HomePage.Sec4')
+      <div class="position-relative mb-cus">
         @include('HomePage.Sec5')
         @include('HomePage.Sec6')
     </div>
-    <div class="incrocio">
+     <div class="incrocio">
         @include('HomePage.Sec7')
-        @include('HomePage.footer')
-    </div> --}}
+         {{-- @include('HomePage.footer') --}}
+    </div>
     <script src="{{ asset('js/nav.js') }}"  crossorigin="anonymous"></script>
 </body>
 </html>

@@ -186,6 +186,10 @@ img{
 }
 
 
+#newButton{
+    display: none;
+}
+
 @media screen and ( max-width: 1300px){
     .caroselloBox{
         width: 1100px;
@@ -229,7 +233,7 @@ img{
     }
 
     .caroselloBox{
-        width: 85%;
+        width: 800px;
         flex-direction: column;
         align-items: center;
         gap: 20px;
@@ -247,6 +251,10 @@ img{
 
     .caroselloBox .dx{
         width: 100%;
+    }
+
+    .caroselloBox .sx {
+        position: relative;
     }
 
     .caroselloBox .sx .boxContent {
@@ -293,36 +301,90 @@ img{
         text-decoration: none;
     }
 
-    .posRel {
-        position: relative;
-        display: flex;
-    }
 
-    .posRel #btn{
+        #newButton{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: center;
+        }
+
+        #newButton #btn{
         width: 50px;
         background: #ffe100;
         border: none;
         color: white;
         fill: white;
         padding: 5px 10px;
+
+
     }
 
-    .posRel #btn2{
+        #newButton #btn2{
         width: 50px;
         background: #ffe100;
         border: none;
         color: white;
         fill: white;
         padding: 5px 10px;
+
+
     }
 
-    .posRel .Index{
+        #newButton .Index2{
         font-size: 1.4rem;
         background-color: white;
         background-color: black;
         color: white;
         padding: 5px 25px;
+        width: 100%;
+        text-align: center;
+
+
+
     }
 
 
+}
+
+
+@media screen and ( max-width: 860px){
+    .caroselloBox{
+        width: 650px;
+    }
+}
+
+
+@media screen and ( max-width: 700px){
+    .caroselloBox{
+        width: 95%;
+    }
+}
+
+
+@media screen and ( max-width: 585px){
+    .caroselloBox{
+        width: 100%;
+    }
+
+    .caroselloBox .sx{
+        width: initial;
+    }
+
+    .borderCustom{
+        justify-content: space-evenly;
+        flex-direction: column;
+        display: flex;
+        align-items: center;
+    }
+
+
+
+
+    .boxImage #img1{
+        width: 315px;
+    }
+
+    #newButton .Index2{
+        width: 50%;
+    }
 }

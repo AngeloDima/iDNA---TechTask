@@ -3,6 +3,16 @@
     height: 110vh;
     /* background-position-x: 40%; */
     background-position-y: 60%;
-    background-size: 100%;
+    background-size: cover;
     background-image: url(https://calimasurf.com/wp-content/uploads/2022/07/1469782301-clases-de-surf-en-lanzarote-desktop.jpg);
+}
+
+
+@media screen and (max-width: 1084px){
+    .containerSurfista{
+        background-position: right;
+    }
+
+
+
 }
