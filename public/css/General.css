@@ -8,10 +8,10 @@
     margin: 0;
 }
 
-.z-up{
+/* .z-up{
     position: relative;
     z-index: 999;
-}
+} */
 .z-down{
     position: relative;
     z-index: 1;
@@ -37,4 +37,18 @@
 
 .incrocio{
     position: relative;
+}
+
+
+
+#redDiv{
+    width: 90%;
+    height: 500px;
+    background-color: red;
+    display: none;
+    position: absolute;
+    top: 15%;
+    z-index: 999;
+    left: 50%;
+    transform: translateX(-50%);
 }

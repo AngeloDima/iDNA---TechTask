@@ -10,6 +10,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div id="redDiv" ></div>
 
     <div id="imgOnda">
         @include('HomePage.Sec1')
@@ -27,7 +28,7 @@
         @include('HomePage.Sec7')
         @include('HomePage.footer')
     </div>
-
+    <script src="{{ asset('js/nav.js') }}"  crossorigin="anonymous"></script>
 </body>
 </html>
 
