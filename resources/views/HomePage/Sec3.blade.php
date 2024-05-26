@@ -4,7 +4,6 @@
 <body >
     <div class="caroselloBox">
 
-        <div class="posRel">
             <div class="sx d-flex">
                 <div class="boxImage">
                     <img id="img1" src="" alt="">
@@ -19,7 +18,6 @@
                 </div>
             </div>
 
-        </div>
 
 
             <div class="dx">
