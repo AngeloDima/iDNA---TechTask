@@ -21,10 +21,10 @@
         </div>
     </div>
 
-    {{-- <div id="imgOnda">
+    <div id="imgOnda">
         @include('HomePage.Sec1')
         @include('HomePage.Sec2')
-    </div> --}}
+    </div>
      <div class="m-b">
         @include('HomePage.Sec3')
     </div>

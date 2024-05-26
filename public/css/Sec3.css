@@ -73,7 +73,7 @@
 
 #Price{
     margin-bottom: 0;
-
+    font-family: 'Roboto', sans-serif;
     font-size: 2.2rem;
     font-weight: 700;
 }
@@ -181,11 +181,148 @@ img{
     color: rgb(1 176 255);
     font-size: 1.2rem;
 }
-.posRel button{
+.posRel{
     display: none;
 }
-.posRel .Index{
-    display: none;
 
+
+@media screen and ( max-width: 1300px){
+    .caroselloBox{
+        width: 1100px;
+    }
 }
 
+
+@media screen and ( max-width: 1230px){
+    .caroselloBox{
+        width: 950px;
+    }
+
+    .caroselloBox .sx{
+        flex-direction: column;
+    }
+    .caroselloBox .sx .boxContent{
+        flex-direction: row;
+        justify-content: start;
+    }
+
+
+    .caroselloBox .dx{
+        padding: 15px;
+    }
+    .mb-dima #btn{
+        right: -104px;
+    }
+    .mb-dima #btn2{
+        right: -55px;
+    }
+    .mb-dima .Index{
+        right: -55px;
+    }
+}
+
+@media screen and ( max-width: 1085px){
+
+    .caroselloBox .dx{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caroselloBox{
+        width: 85%;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .mb-dima #btn{
+        display: none;
+    }
+    .mb-dima #btn2{
+        display: none;
+    }
+    .mb-dima .Index{
+        display: none;
+    }
+
+    .caroselloBox .dx{
+        width: 100%;
+    }
+
+    .caroselloBox .sx .boxContent {
+        justify-content: center;
+        gap: 20px;
+    }
+
+
+    /* ALLINEAMENTO TEXT */
+
+    #Titolo{
+        text-align: center;
+        margin-bottom: 45px;
+    }
+    .borderCustom{
+        justify-content: space-evenly;
+    }
+
+    #Descrizione{
+        text-align: center;
+    }
+    .as {
+        justify-content: center;
+        margin-top: 50px;
+        flex-direction: column;
+    }
+
+    .as button{
+        width: 70%;
+    }
+
+    #Price{
+        background: #132d49;
+        color: white;
+        padding: 2px 20px;
+    }
+
+    .mb-dima{
+        margin-bottom: 40px;
+    }
+
+    #info{
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .posRel {
+        position: relative;
+        display: flex;
+    }
+
+    .posRel #btn{
+        width: 50px;
+        background: #ffe100;
+        border: none;
+        color: white;
+        fill: white;
+        padding: 5px 10px;
+    }
+
+    .posRel #btn2{
+        width: 50px;
+        background: #ffe100;
+        border: none;
+        color: white;
+        fill: white;
+        padding: 5px 10px;
+    }
+
+    .posRel .Index{
+        font-size: 1.4rem;
+        background-color: white;
+        background-color: black;
+        color: white;
+        padding: 5px 25px;
+    }
+
+
+}
