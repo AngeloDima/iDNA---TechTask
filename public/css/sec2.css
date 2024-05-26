@@ -2,7 +2,7 @@
     margin-top: 95px;
 }
 
-.a{
+.font{
     font-family: "Playfair Display", serif;
     letter-spacing: 1px;
 }
@@ -15,3 +15,35 @@
     text-shadow: 0px 0px 6px #000000;
     font-size: 1.2rem;
 }
+
+
+
+
+@media screen and (max-width: 630px){
+    .font h1{
+        font-size: 25px;
+    }
+    .font p{
+        font-size: 20px;
+    }
+}
+
+
+@media screen and (max-width: 450px){
+    .font h1{
+        font-size: 20px;
+    }
+    .font p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 370px){
+    .font h1{
+        font-size: 15px;
+    }
+    .font p{
+        font-size: 10px;
+    }
+}
+
