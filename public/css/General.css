@@ -8,10 +8,7 @@
     margin: 0;
 }
 
-/* .z-up{
-    position: relative;
-    z-index: 999;
-} */
+
 .z-down{
     position: relative;
     z-index: 1;

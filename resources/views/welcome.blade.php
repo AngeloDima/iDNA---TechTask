@@ -21,14 +21,14 @@
         </div>
     </div>
 
-    <div id="imgOnda">
+    {{-- <div id="imgOnda">
         @include('HomePage.Sec1')
         @include('HomePage.Sec2')
-    </div>
-    <div class="m-b">
+    </div> --}}
+     <div class="m-b">
         @include('HomePage.Sec3')
     </div>
-    @include('HomePage.Sec4')
+    {{-- @include('HomePage.Sec4')
     <div class="position-relative mb-cus">
         @include('HomePage.Sec5')
         @include('HomePage.Sec6')
@@ -36,7 +36,7 @@
     <div class="incrocio">
         @include('HomePage.Sec7')
         @include('HomePage.footer')
-    </div>
+    </div> --}}
     <script src="{{ asset('js/nav.js') }}"  crossorigin="anonymous"></script>
 </body>
 </html>

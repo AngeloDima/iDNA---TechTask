@@ -96,7 +96,22 @@ nav > .ct a:hover{
     display: none;
 }
 
+@media screen and (max-width: 1150px){
+
+
+
+   nav{
+    width: 950px;
+   }
+
+  }
+
+
+
+
   @media screen and (max-width: 990px){
+
+
 
     .hamburger{
         display: block;
