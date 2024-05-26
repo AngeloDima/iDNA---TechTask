@@ -10,7 +10,16 @@
     <title>Document</title>
 </head>
 <body>
-    <div id="redDiv" ></div>
+    <div id="redDiv" >
+        <div class="coso">
+            <a href="">BOARDS</a>
+            <a href="">ACCESSORIES</a>
+            <a href="">BLOG</a>
+            <a href="">TECHNOLOGY</a>
+            <a href="">TEAM</a>
+            <a href="">DEALERS</a>
+        </div>
+    </div>
 
     <div id="imgOnda">
         @include('HomePage.Sec1')
