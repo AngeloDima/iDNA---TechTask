@@ -28,6 +28,10 @@ nav > .dx svg{
     border-radius: 30px;
 }
 
+nav > .dx svg:hover{
+    cursor: pointer;
+}
+
 
 
 nav > .ct a{

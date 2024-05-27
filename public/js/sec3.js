@@ -77,3 +77,6 @@ box1Element.addEventListener("click", function() {
 box2Element.addEventListener("click", function() {
     swapImages(img1Element, img3Element);
 });
+
+
+
