@@ -5,7 +5,7 @@ footer{
     bottom: -24%;
     z-index: 1;
     padding-bottom: 120px;
-    padding-top: 21px;
+    padding-top: 58px;
 
 }
 
@@ -21,8 +21,8 @@ footer > .dx{
     height: 100%;
     display: flex;
     gap: 40px;
-    padding: 30px;
     z-index: 999;
+    padding-left: 30px;
 }
 
 footer > .dx .colA{
@@ -56,6 +56,7 @@ footer > .dx svg{
 @media screen and (max-width:1130px) {
     footer{
         padding-bottom: 0;
+        bottom: -27%;
     }
 }
 
@@ -71,27 +72,23 @@ footer > .dx svg{
         width: 100%;
         display: flex;
         justify-content: space-evenly;
+        padding-left:0;
+
     }
 }
+
+
 
 
 @media screen and (max-width:700px) {
     footer{
-        bottom: -25%;
+        bottom: -24%;
     }
 
 }
 
 
-@media screen and (max-width:700px) {
-    footer{
-        bottom: -11%;
-    }
-
-}
-
-
-@media screen and (max-width:400px) {
+@media screen and (max-width:560px) {
     footer{
         bottom: -13%;
     }

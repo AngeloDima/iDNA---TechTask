@@ -259,6 +259,10 @@ img{
         flex-direction: column;
         align-items: center;
         gap: 20px;
+        padding: 30px;
+        border-radius: 5px;
+
+
     }
 
     .mb-dima .btnC{
@@ -387,8 +391,6 @@ img{
 @media screen and ( max-width: 585px){
     .caroselloBox{
         width: 90%;
-        padding: 20px;
-        border-radius: 5px;
     }
 
     .caroselloBox .sx{

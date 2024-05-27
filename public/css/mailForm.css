@@ -118,18 +118,11 @@
 
 @media screen and (max-width:1000px){
 
-    #btnForm{
-        display: none;
+
+    .dl input{
+        margin-left: 0;
     }
 
-    #btnForm2{
-        display: block;
-        margin-right: 40px;
-    }
-
-    .form-check{
-        padding-left: 0;
-    }
 
     .containerForm{
         margin-bottom: 0;

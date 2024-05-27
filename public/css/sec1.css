@@ -101,11 +101,8 @@ nav > .ct a:hover{
 }
 
 @media screen and (max-width: 1150px){
-
-
-
    nav{
-    width: 950px;
+    width: 980px;
    }
 
   }
