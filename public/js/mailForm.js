@@ -8,6 +8,6 @@ document.addEventListener('DOMContentLoaded', function() {
         setTimeout(() => {
             mailSuccess.classList.remove('visible');
             mailSuccess.classList.add('hidden');
-        }, 3000);
+        }, 2500);
     }
 });

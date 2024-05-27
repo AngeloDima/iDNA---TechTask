@@ -31,6 +31,10 @@
         </div>
     </div>
 
+
+
+
+
     <div id="imgOnda">
         @include('HomePage.Sec1')
         @include('HomePage.Sec2')

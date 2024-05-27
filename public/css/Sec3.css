@@ -165,7 +165,7 @@
 }
 
 .box:hover{
-    border: 4px solid rgb(0, 136, 255);
+    border: 3px solid rgb(0, 170, 255);
 }
 
 .boxImage{
@@ -218,7 +218,8 @@ img{
     }
     .caroselloBox .sx .boxContent{
         flex-direction: row;
-        justify-content: start;
+        justify-content: center;
+        gap: 40px;
     }
 
 
@@ -226,17 +227,27 @@ img{
         padding: 15px;
     }
     .mb-dima .btnC{
-        right: -104px;
+        right: -60px;
     }
     .mb-dima .btnC2{
-        right: -55px;
+        right: -15px;
     }
     .mb-dima .Index{
-        right: -55px;
+        right: -15px;
     }
+
+    .mb-dima{
+        padding: 20px;
+    }
+
 }
 
 @media screen and ( max-width: 1085px){
+
+    .caroselloBox .sx{
+        background-image: none;
+    }
+
 
     .caroselloBox .dx{
         display: flex;
@@ -375,7 +386,9 @@ img{
 
 @media screen and ( max-width: 585px){
     .caroselloBox{
-        width: 100%;
+        width: 90%;
+        padding: 20px;
+        border-radius: 5px;
     }
 
     .caroselloBox .sx{
