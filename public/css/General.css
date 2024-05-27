@@ -58,18 +58,16 @@ body.nav-open {
     margin-bottom: 19.6%;
 }
 
-.mb-cus{
-    margin-bottom: 15%;
-}
 
 
 .incrocio{
     position: relative;
+    padding-top: 20px;
 }
 
 
 
-#redDiv{
+#containerNav{
     width: 90%;
     background-color: rgba(255, 255, 255, 0.174);
     display: none;
@@ -83,7 +81,7 @@ body.nav-open {
 
 }
 
-.coso{
+.contentNav{
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -92,7 +90,7 @@ body.nav-open {
     padding: 40px;
 }
 
-.coso a{
+.contentNav a{
     color: rgb(0, 0, 0);
     font-weight: 600;
     font-size: 1.2rem;
@@ -148,6 +146,11 @@ body.nav-open {
 @media screen and (max-width: 410px){
     .m-b{
         margin-bottom: 1140px;
+        margin-bottom: 0;
+    }
+
+    .incrocio{
+        padding-top: 0;
     }
 }
 

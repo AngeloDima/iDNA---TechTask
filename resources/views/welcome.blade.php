@@ -20,8 +20,8 @@
 
 
 
-    <div id="redDiv" >
-        <div class="coso">
+    <div id="containerNav" >
+        <div class="contentNav">
             <a href="">BOARDS</a>
             <a href="">ACCESSORIES</a>
             <a href="">BLOG</a>

@@ -1,7 +1,7 @@
 .ContainerWhiteText{
     width: 100%;
     text-align: center;
-    padding-top: 200px;
+    padding-top: 150px;
     /* background-color: aquamarine; */
 }
 .ContainerWhiteText > h1{
@@ -11,6 +11,22 @@
     font-weight: 700;
     color: #0000000f;
 }
+
+
+/* iPad Mini portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    .ContainerWhiteText{
+        padding-top: 370px;
+    }
+}
+/* Samsung Galaxy S20 Ultra portrait */
+@media only screen and (min-device-width: 412px) and (max-device-width: 915px) and (orientation: portrait) {
+    .ContainerWhiteText{
+        padding-top: 340px;
+    }
+}
+
+
 
 
 @media screen and (max-width: 1030px){
