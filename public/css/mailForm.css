@@ -97,9 +97,16 @@
 
 
 
+
+
+
 @media screen and (max-width:1130px){
     .d-Custom{
         gap: 15px;
+    }
+
+    .containerForm{
+        margin-bottom: 53px;
     }
 }
 
@@ -119,6 +126,10 @@
         padding-left: 0;
     }
 
+    .containerForm{
+        margin-bottom: 0;
+    }
+
 }
 
 
@@ -135,7 +146,9 @@
         width: 100%;
     }
 
-
+    .dl label{
+        font-size: 0.85rem;
+    }
 
 
 }

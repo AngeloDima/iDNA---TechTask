@@ -35,7 +35,7 @@
     </div>
      <div class="incrocio">
         @include('HomePage.Sec7')
-         {{-- @include('HomePage.footer') --}}
+        @include('HomePage.footer')
     </div>
     <script src="{{ asset('js/nav.js') }}"  crossorigin="anonymous"></script>
 </body>
