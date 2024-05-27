@@ -7,7 +7,7 @@
     <title>Email Content</title>
 </head>
 <body>
-    <h1>Ciao Prova Bro Fratm mbare</h1>
+    <h1>Invio Email con dati inseriti nel Form</h1>
     <p>{{ $msg }}</p>
 </body>
 </html>

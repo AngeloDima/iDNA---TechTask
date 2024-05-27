@@ -20,7 +20,7 @@ class mailController extends Controller
             "email" => "required|string|email|max:255",
             "Birth-Place" => "required|string|max:255",
             "BirthDay" => "required|date",
-            "Phone" => "required|numeric|max:999999999999",
+            "Phone" => "required|numeric|digits_between:1,15",
             "Company" => "required|string|max:100",
             "Your-Message" => "required|string|max:255",
             "Privacy" => "accepted",
@@ -42,8 +42,11 @@ class mailController extends Controller
             . "Telefono: $phone\n"
             . "Azienda: $company\n"
             . "Messaggio: $yourMessage\n";
+
         Mail::to($email)->send(new optionsMail($msg));
 
         return redirect("/")->with("success", "Dati inviati correttamente");
     }
 }
+
+

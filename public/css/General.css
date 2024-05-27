@@ -9,6 +9,37 @@
 }
 
 
+#mailSuccess {
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    z-index: 555;
+    transform: translateX(-50%);
+    padding: 40px;
+    opacity: 1;
+    transition: top 1s ease-in-out, opacity 1s ease-in-out;
+
+    border-radius: 6px;
+}
+
+#mailSuccess h3 {
+    color: green;
+    text-align: center;
+}
+
+#mailSuccess.hidden {
+    opacity: 0;
+    top: -50px;
+}
+
+#mailSuccess.visible {
+    opacity: 1;
+    top: 50px;
+}
+
+
 .z-down{
     position: relative;
     z-index: 1;

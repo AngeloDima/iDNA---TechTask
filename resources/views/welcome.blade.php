@@ -10,6 +10,16 @@
     <title>Document</title>
 </head>
 <body>
+
+    @if (session('success'))
+    <div id="mailSuccess" class="hidden">
+        <h3>Mail inviata correttamente</h3>
+    </div>
+    @endif
+
+
+
+
     <div id="redDiv" >
         <div class="coso">
             <a href="">BOARDS</a>
@@ -38,7 +48,9 @@
         @include('HomePage.footer')
     </div>
     <script src="{{ asset('js/nav.js') }}"  crossorigin="anonymous"></script>
+    <script src="{{ asset('js/mailForm.js') }}"  crossorigin="anonymous"></script>
 </body>
 </html>
+
 
 
