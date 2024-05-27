@@ -47,7 +47,7 @@ footer > .dx svg{
 
 @media screen and (max-width:1300px) {
     footer{
-        padding-bottom: 10px;
+        padding-bottom: 61px;
     }
 }
 
@@ -56,7 +56,7 @@ footer > .dx svg{
 @media screen and (max-width:1130px) {
     footer{
         padding-bottom: 0;
-        bottom: -27%;
+        bottom: -20%;
     }
 }
 
