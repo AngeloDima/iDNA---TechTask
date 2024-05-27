@@ -34,13 +34,17 @@
     margin-top: 10px;
 }
 
+
+
 .ContainerSurf .dx{
     width: 600px;
     height: 300px;
-    background-image: url(http://lepistina.com/projects/SurfsCo/img/surfPic.png);
     box-shadow: 10px 10px 19px 0px rgb(0 0 0 / 61%);
     background-position-x: 33%;
-    background-size: 660px;
+}
+
+.ContainerSurf .dx iframe{
+    width: 100%;
 }
 
 

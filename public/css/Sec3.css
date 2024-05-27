@@ -76,6 +76,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 2.2rem;
     font-weight: 700;
+    margin-right: 20px;
 }
 
 .as{
@@ -92,7 +93,7 @@
     font-weight: 600;
 }
 
-.mb-dima #btn{
+.mb-dima .btnC{
     position: absolute;
     top: 0px;
     right: -130px;
@@ -104,7 +105,7 @@
     padding: 5px 10px;
 }
 
-.mb-dima #btn2{
+.mb-dima .btnC2{
     position: absolute;
     top: 0px;
     right: -80px;
@@ -214,10 +215,10 @@ img{
     .caroselloBox .dx{
         padding: 15px;
     }
-    .mb-dima #btn{
+    .mb-dima .btnC{
         right: -104px;
     }
-    .mb-dima #btn2{
+    .mb-dima .btnC2{
         right: -55px;
     }
     .mb-dima .Index{
@@ -239,10 +240,10 @@ img{
         gap: 20px;
     }
 
-    .mb-dima #btn{
+    .mb-dima .btnC{
         display: none;
     }
-    .mb-dima #btn2{
+    .mb-dima .btnC2{
         display: none;
     }
     .mb-dima .Index{
@@ -290,6 +291,7 @@ img{
         background: #132d49;
         color: white;
         padding: 2px 20px;
+        margin-right: 0;
     }
 
     .mb-dima{
@@ -308,7 +310,7 @@ img{
             justify-content: center;
         }
 
-        #newButton #btn{
+        #newButton .btnC{
         width: 50px;
         background: #ffe100;
         border: none;
@@ -319,7 +321,7 @@ img{
 
     }
 
-        #newButton #btn2{
+        #newButton .btnC2{
         width: 50px;
         background: #ffe100;
         border: none;
